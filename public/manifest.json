@@ -1,0 +1,23 @@
+{
+	"name": "Kazar App",
+	"short_name": "Kazar",
+	"description": "Kazar - Your Trusted Escrow Service for Secure Transactions",
+	"lang": "en-UK",
+	"icons": [
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"background_color": "#ffffff",
+	"start_url": "/",
+	"orientation": "portrait-primary",
+	"theme_color": "#313d4a",
+	"display": "standalone"
+}
