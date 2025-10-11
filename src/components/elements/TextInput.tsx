@@ -3,6 +3,7 @@ import { HTMLInputTypeAttribute } from "react";
 interface prop {
 	label?: string;
 	placeholder?: string;
+	name?: string;
 	max?: number;
 	min?: number;
 	disabled?: boolean;
@@ -27,6 +28,7 @@ const TextInput = ({
 	label,
 	type = "text",
 	max,
+	name,
 	min,
 	mode,
 	placeholder,
@@ -43,6 +45,7 @@ const TextInput = ({
 				</label>
 			)}
 			<input
+				name={name}
 				id={id}
 				inputMode={mode}
 				min={min}
@@ -51,7 +54,8 @@ const TextInput = ({
 				placeholder={placeholder}
 				value={value}
 				onChange={onChange}
-				className={`block w-full border-gray-600 border px-8 py-3 rounded-[12px] ${className}`}
+				className={`block w-full  border
+						 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none border-gray-600  px-8 py-3 rounded-[12px] ${className}`}
 			/>
 		</div>
 	);

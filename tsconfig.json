@@ -12,6 +12,7 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"jsx": "preserve",
+		"noUnusedLocals": false,
 		"incremental": true,
 		"plugins": [
 			{
@@ -27,7 +28,8 @@
 		"**/*.ts",
 		"**/*.tsx",
 		".next/types/**/*.ts",
-		"postcss.config.mjs"
+		"postcss.config.mjs",
+		"src/types/**/*"
 	],
 	"exclude": ["node_modules"]
 }

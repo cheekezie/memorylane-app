@@ -24,8 +24,8 @@ module.exports = {
 			colors: {
 				background: "rgb(var(--background) / <alpha-value>)",
 				foreground: "rgb(var(--foreground) / <alpha-value>)",
-				primary: "rgb(var(--primary) / <alpha-value>)",
-				secondary: "rgb(var(--secondary) / <alpha-value>)",
+				primary: "#5F6652",
+				secondary: "#E98C18",
 				success: "#219653",
 				danger: "#D34053",
 				warning: "#FFA70B",

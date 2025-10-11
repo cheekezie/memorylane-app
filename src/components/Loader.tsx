@@ -18,10 +18,10 @@ const Loader = ({
 				<Image
 					src={LogoIcon}
 					alt="L-2"
-					width={200}
-					height={200}
+					width={100}
+					height={100}
 					priority
-					className="w-20 h-20 object-contain"
+					className="w-16 h-16 object-contain"
 				/>
 			</div>
 			<p className="mt-6 text-sm font-semibold">{text}</p>

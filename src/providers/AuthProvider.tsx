@@ -25,12 +25,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
 	useEffect(() => {
 		const checkAuth = () => {
-			const publicPaths = ["/", "/login", "/register", "/forgot-password"];
+			const publicPaths = ["/", "/login", "/register"];
 			const normalizedPathname =
 				pathname?.toLowerCase().replace(/\/$/, "") || "";
 			const isPublicPage = publicPaths.includes(normalizedPathname);
 
-			// Temporarily trick the app to be authenticated without cache check
+			// Temporarily  authenticate without cache check
 			setIsAuthenticated(true);
 			setLoading(false);
 

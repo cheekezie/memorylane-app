@@ -31,7 +31,7 @@ const Button = ({
 	};
 
 	const buttonV = tv({
-		base: "flex items-center rounded-md text-sm justify-center transform transition-all duration-300",
+		base: "flex items-center rounded-md text-sm justify-center transform transition-all duration-300 active:scale-[.98] active:duration-75",
 		variants: {
 			color: {
 				primary: "bg-primary text-white",

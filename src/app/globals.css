@@ -5,15 +5,15 @@
 :root {
 	--background: 255 255 255; /* White */
 	--foreground: 49 61 74; /* Charcoal */
-	--primary: 30 144 255; /* Dodger Blue */
-	--secondary: 137 207 240; /* Baby Blue */
+	--primary: "#5F6652";
+	--secondary: "#E98C18";
 }
 
 .dark {
 	--background: 49 61 74; /* Charcoal */
 	--foreground: 237 237 237; /* Light gray */
-	--primary: 30 144 255; /* Dodger Blue */
-	--secondary: 137 207 240; /* Baby Blue */
+	--primary: "#5F6652";
+	--secondary: "#E98C18";
 }
 
 html {

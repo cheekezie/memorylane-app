@@ -1,9 +1,39 @@
-import LogoIcon from "./logo-icon.svg";
-import LogoImage from "./logo-image.svg";
+import LogoIcon from "./logo-icon.png";
+import LogoImage from "./logo-image.png";
+import LogoImage2 from "./logo-image-2.png";
+import HeroImage from "./hero-image.png";
+import SwapImage1 from "./swap-2.jpg";
+import SwapImage2 from "./swap-3.png";
+import SwapImage3 from "./swap-4.png";
+import SwapImage4 from "./swap-6.png";
+import Sitting1 from "./sitting-1.png";
+import Sitting2 from "./sitting-2.png";
+import Sitting3 from "./sitting-3.jpg";
+import ArrowImage from "./arrow.png";
+import Testimonial1 from "./testimonial1.png";
+import Testimonial2 from "./testimonial2.png";
+import Testimonial3 from "./testimonial3.png";
+import Testimonial4 from "./testimonial4.jpg";
+import Testimonial5 from "./testimonial5.png";
+import Testimonial6 from "./testimonial6.jpg";
 
-import Step1 from "./Step1.png";
-import Step2 from "./Step2.png";
-import Step3 from "./Step3.png";
-import Step4 from "./Step4.png";
-
-export { LogoIcon, LogoImage, Step1, Step2, Step3, Step4 };
+export {
+	LogoIcon,
+	LogoImage,
+	LogoImage2,
+	HeroImage,
+	SwapImage1,
+	SwapImage2,
+	SwapImage3,
+	SwapImage4,
+	Sitting1,
+	Sitting2,
+	Sitting3,
+	ArrowImage,
+	Testimonial1,
+	Testimonial2,
+	Testimonial3,
+	Testimonial4,
+	Testimonial5,
+	Testimonial6,
+};

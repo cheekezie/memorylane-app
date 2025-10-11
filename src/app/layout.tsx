@@ -19,15 +19,15 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-	title: "Kazar",
-	description: "Kazar - Your Trusted Escrow Service for Secure Transactions",
+	title: "Memory Lane App",
+	description: "...turn your Photos into Frames in minutes.",
 	manifest: "/manifest.json",
 	appleWebApp: {
 		capable: true,
 		statusBarStyle: "default",
-		title: "Kazar",
+		title: "Memory Lane App",
 	},
-	applicationName: "Kazar",
+	applicationName: "Memory Lane App",
 	other: {
 		"mobile-web-app-capable": "yes",
 	},
@@ -66,6 +66,10 @@ export default function RootLayout({
 					href="/favicon-16x16.png"
 				/>
 				<meta name="format-detection" content="telephone=no" />
+				<meta name="mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+				<meta name="apple-mobile-web-app-title" content="Memory Lane App" />
 			</head>
 			<body className="font-sora antialiased">
 				<ClientProviders>{children}</ClientProviders>
