@@ -8,7 +8,7 @@ const Loader = ({
 }) => {
 	return (
 		<div
-			className={`fixed inset-0 z-[100] ${
+			className={`fixed inset-0 z-[1000] ${
 				theme === "white" ? "bg-white text-black" : "bg-black text-white"
 			} ${
 				transparent ? "bg-opacity-50" : "bg-opacity-100"
