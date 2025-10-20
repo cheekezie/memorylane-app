@@ -1,6 +1,7 @@
-import LogoIcon from "./logo-icon.png";
-import LogoImage from "./logo-image.png";
-import LogoImage2 from "./logo-image-2.png";
+import LogoIcon from "./memorylane_icon_orange.png";
+import LogoIcon2 from "./memorylane_icon_green.png";
+import LogoImage from "./memorylane_orange_main.png";
+import LogoImage2 from "./memorylane_white_main.png";
 import HeroImage from "./hero-image.png";
 import SwapImage1 from "./swap-2.jpg";
 import SwapImage2 from "./swap-3.png";
@@ -21,6 +22,7 @@ export {
 	LogoIcon,
 	LogoImage,
 	LogoImage2,
+	LogoIcon2,
 	HeroImage,
 	SwapImage1,
 	SwapImage2,
