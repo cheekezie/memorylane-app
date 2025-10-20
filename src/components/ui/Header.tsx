@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
-import { LogoImage, LogoImage2 } from "@/assets";
+import { LogoImage2 } from "@/assets";
 import Link from "next/link";
 import DarkModeButton from "../elements/DarkModeButton";
 
@@ -15,7 +15,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="fixed top-0 left-0 right-0 w-full bg-white dark:bg-graydark z-[999] transition-all duration-300 border-b border-bodydark1 dark:border-bodydark2">
+			<header className="fixed top-0 left-0 right-0 w-full z-[999] transition-all duration-300 border-b border-bodydark1 dark:border-bodydark2 bg-white dark:bg-graydark">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex items-center justify-between h-16 sm:h-20">
 						<div className="flex-shrink-0 flex items-center">
@@ -25,6 +25,7 @@ const Header = () => {
 								priority
 								width={200}
 								height={200}
+								className="dark:invert-0 invert"
 							/>
 						</div>
 
